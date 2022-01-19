@@ -1,5 +1,6 @@
 package behaviours;
+import enemies.*;
 
 public interface IDefend {
-     void defend();
+     void defend(Enemy _enemy);
 }
